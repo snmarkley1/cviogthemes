@@ -1,132 +1,111 @@
-#' Urban Institute palettes
+#' University of Georgia palettes
 #'
 #' Vectors with hex-color codes that correspond to the color palettes outlined in the Urban Institute Data Visualization Style Guide.
-#' \url{http://urbaninstitute.github.io/graphics-styleguide/}
+#' \url{https://brand.uga.edu/}
 #'
-#' @source Urban Institute Data Visualization Style Guide
-#'  \url{http://urbaninstitute.github.io/graphics-styleguide/}
+#' @source University of Georgia Brand Style Guide
+#'  \url{https://brand.uga.edu/}
 #'
 #'
-#' @family urbn palettes
-#' @rdname urbn_palettes
-#' @export
-palette_urbn_main <- c(
-  cyan = "#1696d2",
-  yellow = "#fdbf11",
-  black = "#000000",
-  gray = "#d2d2d2",
-  magenta = "#ec008b",
-  green = "#55b748",
-  `space gray` = "#5c5859",
-  red = "#db2b27")
 
-#' @rdname urbn_palettes
+#' @family cviog palettes
+#' @rdname cviog_palettes
 #' @export
-palette_urbn_diverging <- c(
-  "#ca5800",
-  "#fdbf11",
-  "#fdd870",
-  "#fff2cf",
-  "#cfe8f3",
-  "#73bfe2",
-  "#1696d2",
-  "#0a4c6a")
+#' main color palette -- categorical
+palette_cviog_main <- c(
+  bulldog_red = "#BA0C2F",
+  arch_black = "#000000",
+  hedges = "#B7BF10",
+  olympic = "#004E60",
+  stegeman = "#9EA2A2",
+  lake_herrick = "#00A3AD",
+  odyssey = "#C8D8EB",
+  athens = "#66435A",
+  chapel_bell_white = "#FFFFFF",
+  herty_field = "#594A25",
+  creamery = "#D6D2C4",
+  glory_glory = "#E4002B",
+  sanford = "#554F47"
+  )
 
-#' @rdname urbn_palettes
-#' @export
-palette_urbn_quintile <- c(
-  "#cfe8f3",
-  "#73bfe2",
-  "#1696d2",
-  "#0a4c6a",
-  "#000000")
 
-#' @rdname urbn_palettes
+#' @rdname cviog_palettes
 #' @export
-palette_urbn_politics <- c(
-  "#1696d2",
-  "#db2b27")
+#' red-black diverging -- primary
+palette_cviog_diverging_rb <- c(
+  "#000000",
+  "#f1f1f1",
+  "#9b0d2a"
+)
 
-#' @rdname urbn_palettes
-#' @export
-palette_urbn_cyan <- c(
-  "#cfe8f3",
-  "#a2d4ec",
-  "#73bfe2",
-  "#46abdb",
-  "#1696d2",
-  "#12719e",
-  "#0a4c6a",
-  "#062635")
 
-#' @rdname urbn_palettes
+#' @rdname cviog_palettes
 #' @export
-palette_urbn_gray <- c(
-  "#f5f5f5",
-  "#ececec",
-  "#e3e3e3",
-  "#dcdbdb",
-  "#d2d2d2",
-  "#9d9d9d",
-  "#696969",
-  "#353535")
+#' brown-purple diverging -- secondary
+palette_cviog_diverging_bp <- c(
+  "#594a25",
+  "#f1f1f1",
+  "#66435a"
+)
 
-#' @rdname urbn_palettes
-#' @export
-palette_urbn_yellow <- c(
-  "#fff2cf",
-  "#fce39e",
-  "#fdd870",
-  "#fccb41",
-  "#fabe15",
-  "#bb8e2d",
-  "#7f6127",
-  "#3e3215")
 
-#' @rdname urbn_palettes
+#' @rdname cviog_palettes
 #' @export
-palette_urbn_magenta <- c(
-  "#f5cbdf",
-  "#eb99c2",
-  "#e46aa7",
-  "#e54096",
-  "#e90989",
-  "#af1f6b",
-  "#761548",
-  "#351123")
+#' reds sequential
+palette_cviog_reds <- c(
+  "#f9e1e0",
+  "#f5c7c4",
+  "#e7928f",
+  "#d35c5d",
+  "#BA0C2F",
+  "#9b0d2a",
+  "#3d0612"
+  )
 
-#' @rdname urbn_palettes
-#' @export
-palette_urbn_green <- c(
-  "#dcedd9",
-  "#bcdeb4",
-  "#98cf90",
-  "#78c26d",
-  "#55b748",
-  "#408941",
-  "#2c5c2d",
-  "#1a2e19")
 
-#' @rdname urbn_palettes
+#' @rdname cviog_palettes
 #' @export
-palette_urbn_spacegray <- c(
-  "#d5d5d4",
-  "#adabac",
-  "#848081",
-  "#5c5859",
-  "#332d2f",
-  "#262223",
-  "#1a1717",
-  "#0e0c0d")
+#' blues sequential
+palette_cviog_blues <- c(
+  "#dee5e7",
+  "#c0cdd3",
+  "#87a1ab",
+  "#4e7685",
+  "#004e60",
+  "#00313c"
+)
 
-#' @rdname urbn_palettes
+
+#' @rdname cviog_palettes
 #' @export
-palette_urbn_red <- c(
-  "#f8d5d4",
-  "#f1aaa9",
-  "#e9807d",
-  "#e25552",
-  "#db2b27",
-  "#a4201d",
-  "#6e1614",
-  "#370b0a")
+#' purples sequential
+palette_cviog_purples <- c(
+  "#ffefff",
+  "#d6c1d4",
+  "#af95aa",
+  "#8a6b81",
+  "#66435a",
+  "#402a38"
+)
+
+#' @rdname cviog_palettes
+#' @export
+#' browns sequential
+palette_cviog_browns <- c(
+  "#fffbdd",
+  "#d3ccab",
+  "#a89e7b",
+  "#80734e",
+  "#594a25",
+  "#3f341b"
+)
+
+
+#' @rdname cviog_palettes
+#' @export
+#' black-white sequential
+palette_cviog_bw <- c(
+  "#FFFFFF",
+  "#353535"
+  )
+
